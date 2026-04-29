@@ -1,0 +1,297 @@
+<html>
+<head>
+    <title>Growth Hackers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+      
+        h1 {
+            color : red;
+        }
+
+        h2 {
+            color: purple;
+        }
+ 
+        h3 {
+            color: black;
+        }
+
+        center {
+            background: linear-gradient(to right, indigo, grey);
+            padding: 20px;
+            color: red;
+        }
+
+        a {
+            text-decoration:none;
+            color: orange;
+            font-weight: bold;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        a:hover {
+            color: blue;
+        }
+
+        .fixed-img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card {
+            background: yellow;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow:15px;
+            cursor:pointer;
+         }
+
+        table.table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: auto;
+            box-shadow:15px;
+            border:3px solid black;
+        }
+
+        table.table th {
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table.table td {
+            padding: 10px;
+            text-align: center;
+            background-color: yellow;
+        }
+
+        form {
+            background: grey;
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow:15px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border:2px solid black;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border:2px solid green;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orange;
+        }
+
+
+        hr {
+            border:1px solid red;
+            height: 1px;
+            background: red;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h1>Growth Hackers</h1>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#stats">Stats</a>
+        <a href="#contact">Contact</a>
+    </center>
+
+    <div class="container-fluid mt-4" id="home">
+        <h2 class="text-center">Welcome to Growth Hackers</h2>
+        <p class="text-center">
+            We help businesses grow using digital marketing strategies like SEO, Social Media Marketing and Paid Ads.
+        </p>
+
+        <h2 id="services" class="text-center mt-4">Our Services</h2>
+        <div class="row justify-content-center px-3">
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card w-100 h-100">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop" class="card-img-top fixed-img">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">SEO</h5>
+                        <p class="flex-grow-1">Boost your Google ranking with smart SEO strategies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card w-100 h-100">
+                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=200&fit=crop" class="card-img-top fixed-img">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Social Media</h5>
+                        <p class="flex-grow-1">Grow your brand on Instagram & Facebook.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card w-100 h-100">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop" class="card-img-top fixed-img">
+                    <div class="card-body text-center d-flex flex-column">
+                        <h5 class="card-title">Paid Ads</h5>
+                        <p class="flex-grow-1">Run targeted ads to get instant traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-4">
+        <h2 class="mt-4">Why Choose Us?</h2>
+        <ul>
+            <li>✓ Experienced Team</li>
+            <li>✓ Result Oriented Strategy</li>
+            <li>✓ Affordable Pricing</li>
+            <li>✓ 24/7 Support</li>
+        </ul>
+
+        <h2>Our Mission</h2>
+        <p>Our mission is to help businesses grow online with smart digital marketing strategies.</p>
+    </div>
+    <hr>
+
+    <div class="container-fluid px-4">
+        <h2>Service Details</h2>
+        <ol>
+            <li>SEO Optimization for Google Ranking</li>
+            <li>Social Media Marketing (Instagram, Facebook)</li>
+            <li>Paid Ads Campaign Management</li>
+        </ol>
+    </div>
+
+    <div class="container-fluid px-4">
+        <h2 id="stats" class="text-center">Service Plans</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered text-center">
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Basic</th>
+                        <th>Pro</th>
+                        <th>Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SEO</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td>Social Media</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td>Ads</td>
+                        <td>No</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>$100</td>
+                        <td>$300</td>
+                        <td>$500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <hr> 
+
+    <div class="container-fluid px-4">
+        <h2>Our Achievements</h2>
+        <ul>
+            <li><b>500+</b> Clients</li>
+            <li><b>1200+</b> Projects</li>
+            <li><b>10+</b> Years Experience</li>
+        </ul>
+
+        <h2>Client Feedback</h2>
+        <p><b>Rahul Sharma:</b> "Amazing service and great results!"</p>
+        <p><b>Priya Singh:</b> "My business grew 2x after working with them."</p>
+        <p><b>Amit Verma:</b> "Highly recommended digital marketing agency."</p>
+    </div>
+    <hr>
+
+    <div class="container-fluid px-4">
+        <h2 id="contact" class="text-center">Contact Us</h2>
+        <form id="contactForm">
+            <label>Name:</label><br>
+            <input type="text"id="name"placeholder="Enter your name" required><br><br>
+            
+            <label>Email:</label><br>
+            <input type="email"id="email"placeholder="Enter your email" required><br><br>
+            
+            <label>Message:</label><br>
+            <textarea id="message"placeholder="Enter your message"></textarea><br><br>
+            
+            <button type="submit">Submit</button>
+            <div id="formMessage"class="mt-3 fw-bold"></div>
+        </form>
+    </div>
+
+    <hr>
+    <center style="background:linear-gradient(to right,indigo,grey); padding: 20px;">
+        <p style="color:white !important; margin: 0; font-size: 18px;">© 2026 Mitisha Waghmare | All Rights Reserved</p>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var message = document.getElementById("message").value.trim();
+    var msgBox = document.getElementById("formMessage");
+    
+    if (name === "" || email === "" || message === "") {
+        msgBox.style.color = "red";
+        msgBox.innerText = "⚠️ Please fill all fields!";
+        return;
+    }
+    if (email.indexOf("@") === -1) {
+        msgBox.style.color = "red";
+        msgBox.innerText = "⚠️ Please enter a valid email!";
+        return;
+    }
+    msgBox.style.color = "green";
+    msgBox.innerText = "✅ Thank you " + name + "! Your message has been sent successfully.";
+    document.getElementById("contactForm").reset();
+});
+</script>
+</body>
+</html>
